@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
 - source: /webpage
-  destination: /var/www
+  destination: /var/www/html
 - source: /scripts/requirements.txt
   destination: /home/ec2-user/scripts
 hooks:
