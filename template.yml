@@ -30,7 +30,7 @@ Parameters:
   Stage:
     Type: String
     Description: The name for a project pipeline stage, such as Staging or Prod, for which resources are provisioned and deployed.
-    Default: ""
+    Default: "dev"
 Resources:
   WebApp01LaunchTemplate:
     Type: AWS::EC2::LaunchTemplate
