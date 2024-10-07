@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/ec2-user
+#cd /home/ec2-user
 
 # Install python3
 yum -y install python3-3.7.9-1.amzn2.0.2
